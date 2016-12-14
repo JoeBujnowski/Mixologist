@@ -1,0 +1,38 @@
+DROP TABLE IF EXISTS cocktail;
+DROP TABLE IF EXISTS beer;
+DROP TABLE IF EXISTS wine;
+DROP TABLE IF EXISTS non_alc;
+
+CREATE TABLE cocktail (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(150),
+  alc_1 VARCHAR(100),
+  alc_2 VARCHAR(100),
+  alc_3 VARCHAR(100),
+  mixer_1 VARCHAR(100),
+  mixer_2 VARCHAR(100),
+  mixer_3 VARCHAR(100),
+  volume INTEGER,
+);
+
+CREATE TABLE beer (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(150),
+  type VARCHAR(150),
+  volume INTEGER,
+);
+
+CREATE TABLE wine (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(150),
+  type VARCHAR(150),
+  volume INTEGER,
+);
+
+CREATE TABLE non_alc (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(150),
+  volume INTEGER,
+);
+
+COMMIT;
