@@ -1,7 +1,6 @@
 {
   "name": "cocktail_mixer",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "css": "^2.2.1",
@@ -15,5 +14,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joe Bujnowski",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeBujnowski/Mixologist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoeBujnowski/Mixologist/issues"
+  },
+  "homepage": "https://github.com/JoeBujnowski/Mixologist#readme",
+  "description": ""
 }
